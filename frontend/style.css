@@ -1,0 +1,56 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.element {
+    float: left;
+}
+
+#toolbar {
+    color: whitesmoke;
+    background-color: forestgreen;
+
+    font-family: "Segoe UI";
+
+    margin: 0;
+
+    width: 99%;
+    height: 10%;
+    padding-left: 1%;
+}
+
+#toolbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#toolbar li {
+    margin-right: 20px;
+    margin-bottom: 0;
+    float: left;
+}
+
+li div a {
+    display: inline-block;
+    color: whitesmoke;
+    padding: 8px;
+    text-decoration: none;
+}
+
+li div a:hover {
+    background-color: rgb(36, 102, 36);
+}
+
+#toolbar_links {
+    align-self: right;
+    padding: 0;
+}
+
+#mapid {
+    height: 90%;
+    width: 100%;
+    align-self: stretch;
+    margin: 0;
+}
